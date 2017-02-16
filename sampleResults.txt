@@ -1,0 +1,253 @@
+/usr/local/java/jdk1.8.0_121/bin/java -Didea.launcher.port=7532 -Didea.launcher.bin.path=/usr/local/Idea/idea-IC-163.12024.16/bin -Dfile.encoding=UTF-8 -classpath /usr/local/java/jdk1.8.0_121/jre/lib/charsets.jar:/usr/local/java/jdk1.8.0_121/jre/lib/deploy.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/cldrdata.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/dnsns.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/jaccess.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/jfxrt.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/localedata.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/nashorn.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/sunec.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/sunjce_provider.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/sunpkcs11.jar:/usr/local/java/jdk1.8.0_121/jre/lib/ext/zipfs.jar:/usr/local/java/jdk1.8.0_121/jre/lib/javaws.jar:/usr/local/java/jdk1.8.0_121/jre/lib/jce.jar:/usr/local/java/jdk1.8.0_121/jre/lib/jfr.jar:/usr/local/java/jdk1.8.0_121/jre/lib/jfxswt.jar:/usr/local/java/jdk1.8.0_121/jre/lib/jsse.jar:/usr/local/java/jdk1.8.0_121/jre/lib/management-agent.jar:/usr/local/java/jdk1.8.0_121/jre/lib/plugin.jar:/usr/local/java/jdk1.8.0_121/jre/lib/resources.jar:/usr/local/java/jdk1.8.0_121/jre/lib/rt.jar:/usr/local/scala/lib:/home/koosha/IdeaProjects/PaytmWebLogAnalysis/target/classes:/home/koosha/.m2/repository/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar:/home/koosha/.m2/repository/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0.jar:/home/koosha/.m2/repository/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar:/home/koosha/.m2/repository/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar:/home/koosha/.m2/repository/org/apache/avro/avro/1.7.7/avro-1.7.7.jar:/home/koosha/.m2/repository/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar:/home/koosha/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/home/koosha/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/home/koosha/.m2/repository/com/twitter/chill_2.11/0.8.0/chill_2.11-0.8.0.jar:/home/koosha/.m2/repository/com/esotericsoftware/kryo-shaded/3.0.3/kryo-shaded-3.0.3.jar:/home/koosha/.m2/repository/com/esotericsoftware/minlog/1.3.0/minlog-1.3.0.jar:/home/koosha/.m2/repository/org/objenesis/objenesis/2.1/objenesis-2.1.jar:/home/koosha/.m2/repository/com/twitter/chill-java/0.8.0/chill-java-0.8.0.jar:/home/koosha/.m2/repository/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar:/home/koosha/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/home/koosha/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/home/koosha/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/home/koosha/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:/home/koosha/.m2/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar:/home/koosha/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/home/koosha/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/koosha/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/koosha/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/koosha/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/home/koosha/.m2/repository/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar:/home/koosha/.m2/repository/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar:/home/koosha/.m2/repository/org/tukaani/xz/1.0/xz-1.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar:/home/koosha/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar:/home/koosha/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/home/koosha/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/koosha/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.jar:/home/koosha/.m2/repository/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar:/home/koosha/.m2/repository/org/apache/spark/spark-launcher_2.11/2.1.0/spark-launcher_2.11-2.1.0.jar:/home/koosha/.m2/repository/org/apache/spark/spark-network-common_2.11/2.1.0/spark-network-common_2.11-2.1.0.jar:/home/koosha/.m2/repository/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar:/home/koosha/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.5/jackson-annotations-2.6.5.jar:/home/koosha/.m2/repository/org/apache/spark/spark-network-shuffle_2.11/2.1.0/spark-network-shuffle_2.11-2.1.0.jar:/home/koosha/.m2/repository/org/apache/spark/spark-unsafe_2.11/2.1.0/spark-unsafe_2.11-2.1.0.jar:/home/koosha/.m2/repository/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar:/home/koosha/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/home/koosha/.m2/repository/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar:/home/koosha/.m2/repository/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar:/home/koosha/.m2/repository/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar:/home/koosha/.m2/repository/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar:/home/koosha/.m2/repository/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar:/home/koosha/.m2/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar:/home/koosha/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/home/koosha/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/koosha/.m2/repository/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar:/home/koosha/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/koosha/.m2/repository/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar:/home/koosha/.m2/repository/org/slf4j/jul-to-slf4j/1.7.16/jul-to-slf4j-1.7.16.jar:/home/koosha/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.16/jcl-over-slf4j-1.7.16.jar:/home/koosha/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/koosha/.m2/repository/org/slf4j/slf4j-log4j12/1.7.16/slf4j-log4j12-1.7.16.jar:/home/koosha/.m2/repository/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar:/home/koosha/.m2/repository/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.jar:/home/koosha/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar:/home/koosha/.m2/repository/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar:/home/koosha/.m2/repository/commons-net/commons-net/2.2/commons-net-2.2.jar:/home/koosha/.m2/repository/org/json4s/json4s-jackson_2.11/3.2.11/json4s-jackson_2.11-3.2.11.jar:/home/koosha/.m2/repository/org/json4s/json4s-core_2.11/3.2.11/json4s-core_2.11-3.2.11.jar:/home/koosha/.m2/repository/org/json4s/json4s-ast_2.11/3.2.11/json4s-ast_2.11-3.2.11.jar:/home/koosha/.m2/repository/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.jar:/home/koosha/.m2/repository/org/scala-lang/scalap/2.11.0/scalap-2.11.0.jar:/home/koosha/.m2/repository/org/scala-lang/scala-compiler/2.11.0/scala-compiler-2.11.0.jar:/home/koosha/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar:/home/koosha/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar:/home/koosha/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar:/home/koosha/.m2/repository/org/glassfish/hk2/hk2-api/2.4.0-b34/hk2-api-2.4.0-b34.jar:/home/koosha/.m2/repository/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.jar:/home/koosha/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.4.0-b34/aopalliance-repackaged-2.4.0-b34.jar:/home/koosha/.m2/repository/org/glassfish/hk2/external/javax.inject/2.4.0-b34/javax.inject-2.4.0-b34.jar:/home/koosha/.m2/repository/org/glassfish/hk2/hk2-locator/2.4.0-b34/hk2-locator-2.4.0-b34.jar:/home/koosha/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/home/koosha/.m2/repository/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.jar:/home/koosha/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/home/koosha/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar:/home/koosha/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar:/home/koosha/.m2/repository/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.jar:/home/koosha/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.jar:/home/koosha/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/home/koosha/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.jar:/home/koosha/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.jar:/home/koosha/.m2/repository/io/netty/netty-all/4.0.42.Final/netty-all-4.0.42.Final.jar:/home/koosha/.m2/repository/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar:/home/koosha/.m2/repository/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar:/home/koosha/.m2/repository/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar:/home/koosha/.m2/repository/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.jar:/home/koosha/.m2/repository/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.jar:/home/koosha/.m2/repository/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar:/home/koosha/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.5/jackson-databind-2.6.5.jar:/home/koosha/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.6.5/jackson-core-2.6.5.jar:/home/koosha/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.5/jackson-module-scala_2.11-2.6.5.jar:/home/koosha/.m2/repository/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.jar:/home/koosha/.m2/repository/com/fasterxml/jackson/module/jackson-module-paranamer/2.6.5/jackson-module-paranamer-2.6.5.jar:/home/koosha/.m2/repository/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar:/home/koosha/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/koosha/.m2/repository/net/razorvine/pyrolite/4.13/pyrolite-4.13.jar:/home/koosha/.m2/repository/net/sf/py4j/py4j/0.10.4/py4j-0.10.4.jar:/home/koosha/.m2/repository/org/apache/spark/spark-tags_2.11/2.1.0/spark-tags_2.11-2.1.0.jar:/home/koosha/.m2/repository/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6.jar:/home/koosha/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar:/home/koosha/.m2/repository/org/apache/commons/commons-crypto/1.0.0/commons-crypto-1.0.0.jar:/home/koosha/.m2/repository/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar:/home/koosha/.m2/repository/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0.jar:/home/koosha/.m2/repository/com/univocity/univocity-parsers/2.2.1/univocity-parsers-2.2.1.jar:/home/koosha/.m2/repository/org/apache/spark/spark-sketch_2.11/2.1.0/spark-sketch_2.11-2.1.0.jar:/home/koosha/.m2/repository/org/apache/spark/spark-catalyst_2.11/2.1.0/spark-catalyst_2.11-2.1.0.jar:/home/koosha/.m2/repository/org/codehaus/janino/janino/3.0.0/janino-3.0.0.jar:/home/koosha/.m2/repository/org/codehaus/janino/commons-compiler/3.0.0/commons-compiler-3.0.0.jar:/home/koosha/.m2/repository/org/antlr/antlr4-runtime/4.5.3/antlr4-runtime-4.5.3.jar:/home/koosha/.m2/repository/org/apache/parquet/parquet-column/1.8.1/parquet-column-1.8.1.jar:/home/koosha/.m2/repository/org/apache/parquet/parquet-common/1.8.1/parquet-common-1.8.1.jar:/home/koosha/.m2/repository/org/apache/parquet/parquet-encoding/1.8.1/parquet-encoding-1.8.1.jar:/home/koosha/.m2/repository/org/apache/parquet/parquet-hadoop/1.8.1/parquet-hadoop-1.8.1.jar:/home/koosha/.m2/repository/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar:/home/koosha/.m2/repository/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar:/usr/local/scala/lib/scala-swing_2.11-1.0.2.jar:/usr/local/scala/lib/scala-xml_2.11-1.0.4.jar:/usr/local/scala/lib/scala-parser-combinators_2.11-1.0.4.jar:/usr/local/scala/lib/scala-library.jar:/usr/local/scala/lib/scala-actors-migration_2.11-1.1.0.jar:/usr/local/scala/lib/scala-actors-2.11.0.jar:/usr/local/scala/lib/scala-reflect.jar:/usr/local/Idea/idea-IC-163.12024.16/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain com.paytm.challenge.Sessionization
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/02/16 08:27:21 INFO SparkContext: Running Spark version 2.1.0
+17/02/16 08:27:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/02/16 08:27:21 WARN Utils: Your hostname, koosha-Lenovo-Y50-70 resolves to a loopback address: 127.0.1.1; using 192.168.2.35 instead (on interface wlan0)
+17/02/16 08:27:21 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+17/02/16 08:27:21 INFO SecurityManager: Changing view acls to: koosha
+17/02/16 08:27:21 INFO SecurityManager: Changing modify acls to: koosha
+17/02/16 08:27:21 INFO SecurityManager: Changing view acls groups to: 
+17/02/16 08:27:21 INFO SecurityManager: Changing modify acls groups to: 
+17/02/16 08:27:21 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(koosha); groups with view permissions: Set(); users  with modify permissions: Set(koosha); groups with modify permissions: Set()
+17/02/16 08:27:22 INFO Utils: Successfully started service 'sparkDriver' on port 43011.
+17/02/16 08:27:22 INFO SparkEnv: Registering MapOutputTracker
+17/02/16 08:27:22 INFO SparkEnv: Registering BlockManagerMaster
+17/02/16 08:27:22 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+17/02/16 08:27:22 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+17/02/16 08:27:22 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-d86f3ab6-5d90-4940-9254-892fce098d45
+17/02/16 08:27:22 INFO MemoryStore: MemoryStore started with capacity 873.9 MB
+17/02/16 08:27:22 INFO SparkEnv: Registering OutputCommitCoordinator
+17/02/16 08:27:22 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+17/02/16 08:27:22 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.2.35:4040
+17/02/16 08:27:23 INFO Executor: Starting executor ID driver on host localhost
+17/02/16 08:27:23 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45433.
+17/02/16 08:27:23 INFO NettyBlockTransferService: Server created on 192.168.2.35:45433
+17/02/16 08:27:23 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+17/02/16 08:27:23 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.2.35, 45433, None)
+17/02/16 08:27:23 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.2.35:45433 with 873.9 MB RAM, BlockManagerId(driver, 192.168.2.35, 45433, None)
+17/02/16 08:27:23 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.2.35, 45433, None)
+17/02/16 08:27:23 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.2.35, 45433, None)
+17/02/16 08:27:23 INFO SharedState: Warehouse path is 'file:/home/koosha/IdeaProjects/PaytmWebLogAnalysis/spark-warehouse/'.
+Weblog dataframe schema:
+root
+ |-- timestamp: timestamp (nullable = true)
+ |-- elb: string (nullable = true)
+ |-- clientIP: string (nullable = true)
+ |-- clientPort: string (nullable = true)
+ |-- backendPort: string (nullable = true)
+ |-- request_processing_time: double (nullable = true)
+ |-- backend_processing_time: double (nullable = true)
+ |-- response_processing_time: double (nullable = true)
+ |-- elb_status_code: string (nullable = true)
+ |-- backend_status_code: string (nullable = true)
+ |-- received_bytes: long (nullable = true)
+ |-- sent_bytes: long (nullable = true)
+ |-- requestType: string (nullable = true)
+ |-- URL: string (nullable = true)
+ |-- protocol: string (nullable = true)
+
+Top 20 rows of the original log dataframe:
++--------------------------+----------------+---------------+----------+-------------+-----------------------+-----------------------+------------------------+---------------+-------------------+--------------+----------+-----------+---------------------------------------------------------------------------------------------------+--------+
+|timestamp                 |elb             |clientIP       |clientPort|backendPort  |request_processing_time|backend_processing_time|response_processing_time|elb_status_code|backend_status_code|received_bytes|sent_bytes|requestType|URL                                                                                                |protocol|
++--------------------------+----------------+---------------+----------+-------------+-----------------------+-----------------------+------------------------+---------------+-------------------+--------------+----------+-----------+---------------------------------------------------------------------------------------------------+--------+
+|2015-07-22 09:00:28.019143|marketpalce-shop|123.242.248.130|54635     |10.0.6.158:80|2.2E-5                 |0.026109               |2.0E-5                  |200            |200                |0             |699       |GET        |https://paytm.com:443/shop/authresponse?code=f2405b05-e2ee-4b0d-8f6a-9fed0fcfe2e0&state=null       |HTTP/1.1|
+|2015-07-22 09:00:27.89458 |marketpalce-shop|203.91.211.44  |51402     |10.0.4.150:80|2.4E-5                 |0.15334                |2.6E-5                  |200            |200                |0             |1497      |GET        |https://paytm.com:443/shop/wallet/txnhistory?page_size=10&page_number=0&channel=web&version=2      |HTTP/1.1|
+|2015-07-22 09:00:27.885745|marketpalce-shop|1.39.32.179    |56419     |10.0.4.244:80|2.4E-5                 |0.164958               |1.7E-5                  |200            |200                |0             |157       |GET        |https://paytm.com:443/shop/wallet/txnhistory?page_size=10&page_number=0&channel=web&version=2      |HTTP/1.1|
+|2015-07-22 09:00:28.048369|marketpalce-shop|180.179.213.94 |48725     |10.0.6.108:80|2.0E-5                 |0.002333               |2.1E-5                  |200            |200                |0             |35734     |GET        |https://paytm.com:443/shop/p/micromax-yu-yureka-moonstone-grey-MOBMICROMAX-YU-DUMM141CD60AF7C_34315|HTTP/1.0|
+|2015-07-22 09:00:28.036251|marketpalce-shop|120.59.192.208 |13527     |10.0.4.217:80|2.4E-5                 |0.015091               |1.6E-5                  |200            |200                |68            |640       |POST       |https://paytm.com:443/papi/v1/expresscart/verify                                                   |HTTP/1.1|
+|2015-07-22 09:00:28.033793|marketpalce-shop|117.239.195.66 |50524     |10.0.6.195:80|2.4E-5                 |0.02157                |2.1E-5                  |200            |200                |0             |60        |GET        |https://paytm.com:443/api/user/favourite?channel=web&version=2                                     |HTTP/1.1|
+|2015-07-22 09:00:28.055029|marketpalce-shop|101.60.186.26  |33177     |10.0.4.244:80|2.0E-5                 |0.001098               |2.2E-5                  |200            |200                |0             |1150      |GET        |https://paytm.com:443/favicon.ico                                                                  |HTTP/1.1|
+|2015-07-22 09:00:28.050298|marketpalce-shop|59.183.41.47   |62014     |10.0.4.227:80|2.1E-5                 |0.008161               |2.1E-5                  |200            |200                |0             |72        |GET        |https://paytm.com:443/papi/rr/products/6937770/statistics?channel=web&version=2                    |HTTP/1.1|
+|2015-07-22 09:00:28.059081|marketpalce-shop|117.239.195.66 |50538     |10.0.4.227:80|1.9E-5                 |0.001035               |2.1E-5                  |200            |200                |0             |396       |GET        |https://paytm.com:443/images/greyStar.png                                                          |HTTP/1.1|
+|2015-07-22 09:00:28.054939|marketpalce-shop|183.83.237.83  |49687     |10.0.6.108:80|2.3E-5                 |0.008762               |2.1E-5                  |200            |200                |0             |214       |GET        |https://paytm.com:443/shop/cart?channel=web&version=2                                              |HTTP/1.1|
+|2015-07-22 09:00:28.064841|marketpalce-shop|117.195.91.36  |25902     |10.0.6.199:80|1.9E-5                 |0.002359               |2.2E-5                  |200            |200                |0             |16744     |GET        |https://paytm.com:443/offer?utm_source=Affiliates&utm_medium=OMG&utm_campaign=OMG&utm_term=762154_ |HTTP/1.1|
+|2015-07-22 09:00:28.064229|marketpalce-shop|122.180.245.251|50203     |10.0.6.108:80|2.2E-5                 |0.003904               |2.2E-5                  |200            |200                |0             |14169     |GET        |https://paytm.com:443/shop/summary/1116218422                                                      |HTTP/1.1|
+|2015-07-22 09:00:28.057527|marketpalce-shop|117.198.215.20 |53517     |10.0.6.195:80|2.2E-5                 |0.011078               |1.5E-5                  |200            |200                |0             |8334      |GET        |https://paytm.com:443/blog/wp-content/themes/svbtle/style.css                                      |HTTP/1.1|
+|2015-07-22 09:00:28.068481|marketpalce-shop|223.176.154.91 |51582     |10.0.6.108:80|2.2E-5                 |0.001926               |2.1E-5                  |302            |302                |0             |534       |GET        |https://paytm.com:443/shop/login?isIframe=true&theme=mp-html5                                      |HTTP/1.1|
+|2015-07-22 09:00:28.002726|marketpalce-shop|223.225.236.110|32279     |10.0.4.176:80|2.5E-5                 |0.069531               |2.1E-5                  |200            |200                |105           |532       |POST       |https://paytm.com:443/api/v1/expresscart/checkout?wallet=1                                         |HTTP/1.1|
+|2015-07-22 09:00:28.0647  |marketpalce-shop|117.241.97.140 |51029     |10.0.6.178:80|2.1E-5                 |0.011796               |1.5E-5                  |200            |200                |0             |228       |GET        |https://paytm.com:443/shop/cart?channel=web&version=2                                              |HTTP/1.1|
+|2015-07-22 09:00:28.05902 |marketpalce-shop|117.205.247.140|53039     |10.0.4.244:80|2.1E-5                 |0.021522               |2.1E-5                  |449            |449                |97            |252       |POST       |https://paytm.com:443/papi/v1/expresscart/verify                                                   |HTTP/1.1|
+|2015-07-22 09:00:28.071994|marketpalce-shop|14.102.53.58   |4252      |10.0.6.108:80|2.3E-5                 |0.018186               |1.5E-5                  |406            |406                |71            |166       |POST       |https://paytm.com:443/shop/cart                                                                    |HTTP/1.1|
+|2015-07-22 09:00:28.069908|marketpalce-shop|203.200.99.67  |41874     |10.0.6.195:80|2.1E-5                 |0.020869               |2.0E-5                  |200            |200                |0             |822       |GET        |https://paytm.com:443/shop/cart?channel=web&version=2                                              |HTTP/1.1|
+|2015-07-22 09:00:28.019497|marketpalce-shop|107.167.109.204|38565     |10.0.4.150:80|2.3E-5                 |0.072252               |2.1E-5                  |302            |302                |189           |74        |POST       |https://paytm.com:443/                                                                             |HTTP/1.1|
++--------------------------+----------------+---------------+----------+-------------+-----------------------+-----------------------+------------------------+---------------+-------------------+--------------+----------+-----------+---------------------------------------------------------------------------------------------------+--------+
+only showing top 20 rows
+
+sessions list - sample 50 rows
++---------+---------------+--------------------------+-------------+
+|SessionID|client         |StartTime                 |SessionLength|
++---------+---------------+--------------------------+-------------+
+|0        |106.51.235.133 |2015-07-22 02:40:06.499174|900          |
+|1        |115.250.16.146 |2015-07-22 02:40:06.632589|900          |
+|2        |52.74.219.71   |2015-07-22 02:40:06.70016 |9901         |
+|3        |27.97.124.172  |2015-07-22 02:40:06.734226|900          |
+|4        |106.78.125.179 |2015-07-22 02:40:06.748057|900          |
+|5        |112.79.36.98   |2015-07-22 02:40:06.77022 |31139        |
+|6        |119.81.61.166  |2015-07-22 02:40:06.77039 |9902         |
+|7        |117.197.179.139|2015-07-22 02:40:06.798559|900          |
+|8        |1.39.14.113    |2015-07-22 02:40:06.807216|900          |
+|9        |49.206.246.124 |2015-07-22 02:40:06.809655|900          |
+|10       |74.125.63.33   |2015-07-22 02:40:06.851051|10123        |
+|11       |15.211.153.78  |2015-07-22 02:40:06.876418|16306        |
+|12       |122.172.38.214 |2015-07-22 02:40:06.886607|900          |
+|13       |49.156.68.161  |2015-07-22 02:40:06.915622|900          |
+|14       |155.136.184.7  |2015-07-22 02:40:06.915784|23809        |
+|15       |116.75.106.232 |2015-07-22 02:40:06.946267|900          |
+|16       |223.176.39.150 |2015-07-22 02:40:06.997859|900          |
+|17       |103.24.126.11  |2015-07-22 02:40:07.034843|50301        |
+|18       |107.167.109.17 |2015-07-22 02:40:07.045342|29555        |
+|19       |101.212.67.15  |2015-07-22 02:40:07.111389|900          |
+|20       |157.55.39.61   |2015-07-22 02:40:07.142356|29634        |
+|21       |107.167.109.45 |2015-07-22 02:40:07.212498|30964        |
+|22       |117.197.133.200|2015-07-22 02:40:07.227848|900          |
+|23       |117.222.111.200|2015-07-22 02:40:07.240328|900          |
+|24       |1.187.250.52   |2015-07-22 02:40:07.253824|900          |
+|25       |117.219.170.101|2015-07-22 02:40:07.270484|900          |
+|26       |107.167.107.217|2015-07-22 02:40:07.299454|29347        |
+|27       |106.78.43.19   |2015-07-22 02:40:07.341536|900          |
+|28       |1.22.121.246   |2015-07-22 02:40:07.345116|900          |
+|29       |117.227.142.117|2015-07-22 02:40:07.402144|900          |
+|30       |59.179.138.77  |2015-07-22 02:40:07.427331|900          |
+|31       |106.51.134.79  |2015-07-22 02:40:07.516711|900          |
+|32       |1.39.60.241    |2015-07-22 02:40:07.545667|23942        |
+|33       |202.45.7.176   |2015-07-22 02:40:07.594903|23745        |
+|34       |107.167.108.179|2015-07-22 02:40:07.746395|51449        |
+|35       |111.93.218.122 |2015-07-22 02:40:07.747913|16370        |
+|36       |103.245.198.110|2015-07-22 02:40:07.756474|49532        |
+|37       |122.169.218.228|2015-07-22 02:40:07.875704|900          |
+|38       |37.228.106.100 |2015-07-22 02:40:07.895056|56265        |
+|39       |49.203.236.211 |2015-07-22 02:40:07.919989|900          |
+|40       |8.37.225.33    |2015-07-22 02:40:07.924785|51495        |
+|41       |59.89.28.179   |2015-07-22 02:40:08.030379|900          |
+|42       |155.136.184.6  |2015-07-22 02:40:08.072739|9937         |
+|43       |27.34.246.254  |2015-07-22 02:40:08.182715|29521        |
+|44       |106.67.114.220 |2015-07-22 02:40:08.203921|900          |
+|45       |46.4.28.81     |2015-07-22 02:40:08.227653|50121        |
+|46       |27.6.176.251   |2015-07-22 02:40:08.257379|900          |
+|47       |203.192.247.230|2015-07-22 02:40:08.288593|900          |
+|48       |182.65.178.137 |2015-07-22 02:40:08.288835|900          |
+|49       |114.143.46.58  |2015-07-22 02:40:08.336096|900          |
++---------+---------------+--------------------------+-------------+
+only showing top 50 rows
+
+Sessionized web log for sessionID=2
++---------+--------------------------+------------+-------------------------------------------------------------------------------------------------------------------+
+|SessionID|timestamp                 |clientIP    |URL                                                                                                                |
++---------+--------------------------+------------+-------------------------------------------------------------------------------------------------------------------+
+|2        |2015-07-22 02:40:06.70016 |52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/215242/offers?parent_id=6816175&price=599                        |
+|2        |2015-07-22 02:40:06.984173|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/16701614/offers?parent_id=8721095&price=1599                     |
+|2        |2015-07-22 02:40:07.648163|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/1030874/offers?parent_id=1368502&price=514                       |
+|2        |2015-07-22 02:40:07.836146|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/4201633/offers?parent_id=0&price=589                             |
+|2        |2015-07-22 02:40:08.90818 |52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/5641086/offers?parent_id=4924229&price=3675                      |
+|2        |2015-07-22 02:40:09.348168|52.74.219.71|https://paytm.com:443/papi                                                                                         |
+|2        |2015-07-22 02:40:09.708161|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/8524345/offers?parent_id=8524605&price=2995                      |
+|2        |2015-07-22 02:40:10.464153|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/1852479/offers?parent_id=1861796&price=1505                      |
+|2        |2015-07-22 02:40:10.852176|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/998048/offers?parent_id=1437138&price=500                        |
+|2        |2015-07-22 02:40:11.612155|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/3844748/offers?parent_id=12146295&price=725                      |
+|2        |2015-07-22 02:40:11.98815 |52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/16925824/offers?parent_id=256205&price=7315                      |
+|2        |2015-07-22 02:40:12.712166|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/9093043/offers?parent_id=9093070&price=599                       |
+|2        |2015-07-22 02:40:13.208184|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/2165879/offers?parent_id=2170831&price=787                       |
+|2        |2015-07-22 02:40:13.676168|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/7287174/offers?parent_id=6226597&price=25500                     |
+|2        |2015-07-22 02:40:14.640152|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/4949860/offers?parent_id=4957614&price=375                       |
+|2        |2015-07-22 02:40:15.668187|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/4119930/offers?parent_id=1369789&price=356                       |
+|2        |2015-07-22 02:40:16.085991|52.74.219.71|https://paytm.com:443/shop/p/econometrics-CMPLX9788122421224_21612                                                 |
+|2        |2015-07-22 02:40:16.269194|52.74.219.71|https://paytm.com:443/shop/p/aamnas-black-cotton-casual-shirt-size-s-APPAAMNAS-BLACKAAMN35582362133C4              |
+|2        |2015-07-22 02:40:16.400159|52.74.219.71|https://paytm.com:443/papi/v1/promosearch/product/7211643/offers?parent_id=7211670&price=359                       |
+|2        |2015-07-22 02:40:16.586391|52.74.219.71|https://paytm.com:443/shop/p/the-seven-habits-of-highly-effective-people-miniature-edition-CMPLXBOOKS_9780762408337|
++---------+--------------------------+------------+-------------------------------------------------------------------------------------------------------------------+
+only showing top 20 rows
+
+Average session time for ALL sessions:
++------------------+
+|  Avg_Session_Time|
++------------------+
+|3004.5253124013175|
++------------------+
+
+Top 50 Engaged Users:
++--------------+------------------------+--------------------------+
+|client        |Total_SessionLength_Secs|Average_SessionLength_Secs|
++--------------+------------------------+--------------------------+
+|220.226.206.7 |78001                   |6000.076923076923         |
+|54.183.255.140|75455                   |7545.5                    |
+|107.23.255.12 |75435                   |7543.5                    |
+|54.252.79.172 |75432                   |7543.2                    |
+|185.20.4.220  |75372                   |7537.2                    |
+|54.250.253.236|75335                   |7533.5                    |
+|177.71.207.172|75334                   |7533.4                    |
+|120.29.232.107|75331                   |7533.1                    |
+|52.74.219.71  |75322                   |7532.2                    |
+|54.251.151.39 |75319                   |7531.9                    |
+|54.252.254.204|75315                   |7531.5                    |
+|106.186.23.95 |75314                   |7531.4                    |
+|54.240.196.33 |75295                   |7529.5                    |
+|54.244.52.204 |75288                   |7528.8                    |
+|59.144.58.37  |75288                   |7528.8                    |
+|121.58.175.128|75279                   |7527.9                    |
+|54.245.168.44 |75276                   |7527.6                    |
+|54.243.31.236 |75275                   |7527.5                    |
+|54.255.254.236|75274                   |7527.4                    |
+|207.46.13.22  |75273                   |7527.3                    |
+|176.34.159.236|75226                   |7522.6                    |
+|54.241.32.108 |75215                   |7521.5                    |
+|125.19.44.66  |75181                   |7518.1                    |
+|54.228.16.12  |75164                   |7516.4                    |
+|54.248.220.44 |75104                   |7510.4                    |
+|54.232.40.76  |75093                   |7509.3                    |
+|54.251.31.140 |75066                   |7506.6                    |
+|117.239.35.226|74644                   |8293.777777777777         |
+|103.27.171.54 |74483                   |8275.888888888889         |
+|121.243.26.254|74422                   |8269.111111111111         |
+|119.81.61.166 |74422                   |8269.111111111111         |
+|46.165.195.139|74421                   |8269.0                    |
+|103.253.166.8 |74324                   |8258.222222222223         |
+|122.252.231.14|74293                   |8254.777777777777         |
+|20.139.82.64  |74282                   |8253.555555555555         |
+|103.251.228.8 |74237                   |8248.555555555555         |
+|184.75.208.210|73799                   |9224.875                  |
+|74.86.158.109 |73649                   |9206.125                  |
+|157.55.39.61  |73639                   |9204.875                  |
+|46.236.24.51  |73538                   |9192.25                   |
+|68.180.228.46 |73528                   |9191.0                    |
+|54.169.191.85 |73522                   |9190.25                   |
+|66.249.71.110 |73333                   |9166.625                  |
+|117.104.239.89|72733                   |10390.42857142857         |
+|202.3.66.50   |72689                   |10384.142857142857        |
+|46.236.24.52  |72673                   |10381.857142857143        |
+|111.93.226.254|72655                   |10379.285714285714        |
+|46.236.24.53  |72604                   |10372.0                   |
+|92.123.78.55  |72546                   |10363.714285714286        |
+|185.20.4.143  |72352                   |10336.0                   |
++--------------+------------------------+--------------------------+
+only showing top 50 rows
+
+Unique url visit per session - sample 20 rows
++----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|SessionID |URL                                                                                                                                        |
++----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+|87        |https://paytm.com:443/shop/log                                                                                                             |
+|6         |https://paytm.com:443/papi//v1/promosearch/product/15409470/offers?parent_id=256198&price=6299                                             |
+|310       |https://paytm.com:443/papi/v1/expresscart/verify                                                                                           |
+|6         |https://paytm.com:443/papi//v1/promosearch/product/13341090/offers?parent_id=252008&price=4331                                             |
+|319       |https://paytm.com:443/offer/wp-content/plugins/wc-gallery/includes/css/style.css?ver=1.26                                                  |
+|6         |https://paytm.com:443/papi//v1/promosearch/product/13434049/offers?parent_id=2526326&price=899                                             |
+|641       |https://paytm.com:443/shop/p/micromax-canvas-doodle-4-white-MOBMICROMAX-CANKRIS7565935EB8154                                               |
+|6         |https://paytm.com:443/papi//v1/promosearch/product/12337846/offers?parent_id=4357586&price=9782                                            |
+|8589934789|https://paytm.com:443/blog/wp-includes/js/jquery/jquery.js?ver=1.11.2                                                                      |
+|189       |https://paytm.com:443/papi/v1/promosearch/product/9094311/offers?parent_id=9094338&price=999                                               |
+|160       |https://paytm.com:443/shop/p/sandisk-microsdhc-card-8gb-class-4-black-STOSANDISK-MICRJAIS56996901FDF85                                     |
+|701       |https://paytm.com:443/shop/wallet/txnhistory?page_size=10&page_number=0                                                                    |
+|6         |https://paytm.com:443/papi//v1/promosearch/product/11048053/offers?parent_id=2302777&price=591                                             |
+|160       |https://paytm.com:443/shop/p/htc-desire-626-g-plus-white-MOBHTC-DESIRE-6DUMM141721CFF89_48842                                              |
+|160       |https://paytm.com:443/shop/p/samsung-galaxy-s6-edge-32-gb-white-pearl-MOBSAMSUNG-GALADUMM141BBE0AC18_35611                                 |
+|160       |https://paytm.com:443/shop/p/dell-inspiron-5542-core-i5-4210u-4gb-500gb-15-6-2gb-graphics-ubuntu-black-DELL_5542_4GBDDR3_BLACK_45632       |
+|160       |https://paytm.com:443/shop/p/micromax-bolt-a71-white-Micromax_BoltA71_512MB_White_26205                                                    |
+|160       |https://paytm.com:443/shop/p/dell-ms111-3-button-usb-DELL_MS1113-BUTTON_NULL_NULL_39822                                                    |
+|164       |https://paytm.com:443/shop/p/nokia-xl-white-NOKIA_XL_4GB_WHITE_39090                                                                       |
+|160       |https://paytm.com:443/shop/p/seagate-backup-plus-slim-stdr1000300-1-tb-portable-external-hard-drive-black-SEAGATE_BACKUPLUS_1TB_BLACK_22225|
++----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+only showing top 20 rows
+
+
+Process finished with exit code 0
+
