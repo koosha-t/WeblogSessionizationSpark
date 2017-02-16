@@ -143,9 +143,9 @@ object Sessionization {
 
     /*** Most engaged users ***/
     val mostEngagedUsers = sessions.groupBy("client").
-      agg( sum("SessionLength").alias("Total_SessionLength_Mins").cast("long")/60 ,
-        avg("SessionLength").alias("Average_SessionLength_Mins").cast("long")/60).
-      orderBy(desc("Total_SessionLength_Mins"))
+      agg( sum("SessionLength").alias("Total_SessionLength_Secs") ,
+        avg("SessionLength").alias("Average_SessionLength_Secs")).
+      orderBy(desc("Total_SessionLength_Secs"))
 
     println("Top Engaged Users:")
     mostEngagedUsers.show(100, false)
