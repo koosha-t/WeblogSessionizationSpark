@@ -7,6 +7,7 @@ package com.paytm.challenge
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.expressions.Window
+import org.apache.log4j.{Level,Logger}
 
 object Sessionization {
 
@@ -19,6 +20,9 @@ object Sessionization {
       .getOrCreate()
 
     val sc =spark.sparkContext
+
+    val rootLogger = Logger.getRootLogger()
+    rootLogger.setLevel(Level.ERROR)
 
     /* The file containing web logs, placed in the resource folder in the project */
     val pathtoLogFile = getClass.getResource("/2015_07_22_mktplace_shop_web_log_sample.log")
@@ -35,8 +39,10 @@ object Sessionization {
     val weblogsDataFrame = spark.createDataFrame(rowRDD, WeblogSchema.logSchema)
 
     /* Test */
+    println("Weblog dataframe schema:")
     weblogsDataFrame.printSchema()
-    weblogsDataFrame.show(10,false)
+    println("Top 20 rows of the original log dataframe:")
+    weblogsDataFrame.show(false)
 
     val timeOrderedWeblogs = weblogsDataFrame.orderBy(asc("timestamp"));
     timeOrderedWeblogs.persist()
@@ -118,7 +124,8 @@ object Sessionization {
     sessions.persist()
 
     /*Test*/
-    sessions.show(50,false)
+    println("sessions list - sample 50 rows")
+    sessions.select("SessionID" , "client" , "StartTime" , "SessionLength").show(50,false)
 
     /**
       * Sessionizing the original web log => Assign sessionID to each row of the weblogs.
@@ -129,11 +136,14 @@ object Sessionization {
       (timeOrderedWeblogs("timestamp") === sessions("StartTime") ||
         (timeOrderedWeblogs("timestamp") > sessions("StartTime") &&
           timeOrderedWeblogs("timestamp").cast("long") - sessions("StartTime").cast("long") <=
-            sessions("ActivityLength").cast("long")))).
-      select("SessionID", "timestamp" , "clientIP" ,"URL" ,"SessionLength")
+            sessions("ActivityLength").cast("long"))))
+
 
     /** Test **/
-    sessionizedWebLogs.filter(col("SessionID").equalTo(2)).show(30,false)
+    println("Sessionized web log for sessionID=2")
+    sessionizedWebLogs.filter(col("SessionID").equalTo(2)).
+      select("SessionID", "timestamp" , "clientIP" ,"URL").orderBy("timestamp").
+      show(false)
 
 
    /*** Average Session Time ***/
@@ -147,8 +157,8 @@ object Sessionization {
         avg("SessionLength").alias("Average_SessionLength_Secs")).
       orderBy(desc("Total_SessionLength_Secs"))
 
-    println("Top Engaged Users:")
-    mostEngagedUsers.show(100, false)
+    println("Top 50 Engaged Users:")
+    mostEngagedUsers.show(50, false)
 
 
     /**
@@ -156,7 +166,9 @@ object Sessionization {
       * I'm not sure if I've got the question exactly right. My own understanding is
       * to return urls which are visited exactly once in a given session.
       * */
-    sessionizedWebLogs.groupBy("SessionID" , "URL").count().alias("count").filter(col("count").equalTo(1)).show(false)
+    println("Unique url visit per session - sample 20 rows")
+    sessionizedWebLogs.groupBy("SessionID" , "URL").count().alias("count").filter(col("count").equalTo(1))
+      .select("SessionID" , "URL").show(false)
 
   }
 
