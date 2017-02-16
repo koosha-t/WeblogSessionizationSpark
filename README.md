@@ -6,7 +6,7 @@ Please go to src/main/scala/com/paytm/challenge to see my scala source codes.
 I've conducted this challenge based of the following assumptions:
 
               (1) Sessions ONLY end when the user inactivity exceeds the inactivity threshold. The
-                  inactivity threshold has been set to 900 secs (15 mins) - but can bee changed in
+                  inactivity threshold has been set to 900 secs (15 mins) - but can be changed in
                   settings object.
                   
               (2) I have supposed that sessions are not ended by users and each session lasts at least as
