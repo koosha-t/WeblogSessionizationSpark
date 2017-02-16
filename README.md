@@ -1,7 +1,10 @@
 # WeblogSessionizationSpark
 Sessionizing Weblogs using Spark/Scala
 
+Please go to src/main/scala/com/paytm/challenge to see my scala source codes. 
+
 I've conducted this challenge based of the following assumptions:
+
               (1) Sessions ONLY end when the user inactivity exceeds the inactivity threshold. The
                   inactivity threshold has been set to 900 secs (15 mins) - but can bee changed in
                   settings object.
@@ -16,4 +19,4 @@ I've conducted this challenge based of the following assumptions:
                   
   
   
-Please go to src/main/scala/com/paytm/challenge to see my scala source codes. 
+
