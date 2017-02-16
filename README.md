@@ -19,4 +19,4 @@ I've conducted this challenge based of the following assumptions:
                   
   
   
-
+Check sampleResults.txt to see some results. This is the output of 'Sessionization.scala'. 
